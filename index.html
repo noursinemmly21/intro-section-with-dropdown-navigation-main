@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  
+  <title>Frontend Mentor | Intro section with dropdown navigation</title>
+<link rel="stylesheet" href="css/style.css">
+<link rel="stylesheet" href="css/all.min.css">
+<link rel="stylesheet" href="css/bootstrap.min.css">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Epilogue:ital,wght@0,500;0,700;1,500;1,700&family=Inter:wght@400;700;800&family=Josefin+Sans:ital,wght@0,300;0,400;0,600;1,300;1,400;1,600&family=Kumbh+Sans:wght@400;700&family=Manrope:wght@400;500;700&family=Overpass:wght@400;700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&family=Roboto+Mono:wght@300&family=Space+Grotesk:wght@500&display=swap" rel="stylesheet">
+</head>
+<body>
+<div class="container">
+  <nav class="navbar navbar-expand-lg bg-white fixed-top ps-3 pe-3">
+    <a class="navbar-brand" href="#">
+      <img src="images/logo.svg" alt="">
+    </a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#navbarOffcanvasLg" aria-controls="navbarOffcanvasLg">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="offcanvas offcanvas-end" tabindex="-1" id="navbarOffcanvasLg" aria-labelledby="navbarOffcanvasLgLabel">
+      <div class="offcanvas-header justify-content-end">
+        <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+      </div>
+      <div class="offcanvas-body ps-3">
+        <ul class="navbar-nav  ">
+          <li class="nav-item ">
+            <a class="nav-link " aria-current="page" href="#">
+              Features
+              <i class="rotat  fa-solid fa-angle-down"></i>
+            </a>
+            
+            <ul class="menutag feat_show ">
+              <li>
+                <img src="images/icon-todo.svg" alt="">
+                <a href="#">Todo List</a>
+              </li>
+              <li>
+                <img src="images/icon-calendar.svg" alt="">
+                <a href="#">Calendar</a>
+              </li>
+              <li>
+                <img src="images/icon-reminders.svg" alt="">
+                <a href="#">Reminders</a>
+              </li>
+              <li>
+                <img src="images/icon-planning.svg" alt="">
+                <a href="#">planning</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#" >
+              Company
+              <i class=" fa-solid fa-angle-down rotat"></i>
+            </a>
+            <ul class="menutag comp_show " >
+              <li>
+                <a href="#" >History</a>
+              </li>
+              <li>
+                <a href="#">Our Team</a>
+              </li>
+              <li>
+                <a href="#">Blog</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Careers</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">About</a>
+          </li>
+        </ul>
+        <ul class=" register   navbar-nav  justify-content-lg-end flex-grow-1">
+          <li class="nav-item pe-lg-3">
+            <a class="nav-link " href="#">login</a>
+          </li>
+          <li>
+            <a class="nav-link  regis ps-3 pe-3" href="">Register</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+</div>
+<div class="container">
+  <div class="header  pt-5 mb-5 pb-5">
+    <div class="row  ">
+      <div class=" col-12 col-lg-8">
+        <h2 class="mt-sm-5 mt-md-5">Make remote work</h2>
+        <p>
+          Get your team in sync, no matter your location. Streamline processes, 
+          create team rituals, and watch productivity soar.
+        </p>
+        <button>Learn more</button>
+        <div class="images pt-5 ">
+          
+              <img class="img-fluid " src="images/client-databiz.svg" alt="">
+              <img class="img-fluid" src="images/client-audiophile.svg" alt="">
+              <img class="img-fluid" src="images/client-meet.svg" alt="">
+              <img class="img-fluid" src="images/client-maker.svg" alt="">
+            
+        </div>
+      </div>
+      <div class="col-12 col-lg-4">
+        <img class="img-fluid" src="images/image-hero-desktop.png" alt="">
+      </div>
+    </div>
+  </div>
+</div>
+
+
+
+
+
+  
+<script src="js/all.min.js"></script>
+<script src="js/bootstrap.bundle.min.js"></script>
+<script src="js/main.js"></script>
+</body>
+</html>
